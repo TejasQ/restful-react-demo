@@ -1,0 +1,26 @@
+{
+  "name": "rr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "operational-scripts start",
+    "build": "operational-scripts build",
+    "prepublishOnly": "operational-scripts prepare",
+    "test": "operational-scripts test"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@operational/scripts": "^1.4.0",
+    "@types/react": "^16.9.9",
+    "@types/react-dom": "^16.9.2",
+    "typescript": "^3.7.0-dev.20191018"
+  },
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "restful-react": "^9.2.0"
+  }
+}
